@@ -136,6 +136,12 @@ historic:
             wayside_cross: 247
             wayside_shrine: 248
             wreck: 249
+            church: 751
+            distric: 752
+        man_made: 
+            lighthouse: 753
+            pier: 754
+            windmill: 755
 
 leisure_and_entertainment:
     id: 260
@@ -190,6 +196,7 @@ leisure_and_entertainment:
             social_centre: 305
             spa: 306
             stripclub: 307
+            theatre: 761
         tourism:
             aquarium: 308
             theme_park: 309
@@ -208,6 +215,9 @@ natural:
             spring: 338
             volcano: 339
             water: 340
+            hill: 756
+            glacier: 757
+            hot_springs: 758
 
 public_places:
     id: 360
@@ -269,6 +279,7 @@ shops:
             car_parts: 439
             carpet: 440
             curtain: 441
+            charity: 759
             cheese: 442
             chemist: 443
             chocolate: 444
@@ -383,6 +394,7 @@ transport:
             aerodrome: 581
             helipad: 598
             heliport: 599
+            terminal: 760
         amenity:
             bicycle_parking: 583
             bicycle_rental: 584
@@ -426,4 +438,96 @@ tourism:
             fountain: 623
         shop:
             travel_agency: 626
+
+places:
+    id: 650
+    children:
+        place:
+            city: 651
+            town: 652
+            borough: 652
+            village: 653
+            hamlet: 654
+            suburb: 655
+            quarter: 656
+            neighbourhood: 657
+            city_block: 658
+            isolated_dwelling: 659
+            farm: 660
+
+geographic:
+    id: 670
+    children:
+        place:
+            island: 671
+            square: 672
+            locality: 673
+            sea: 674
+
+route:
+    id: 680
+    children:
+        route:
+            bicycle: 681
+            canoe: 682
+            foot: 683
+            hiking: 684
+            horse: 685
+            mtb: 686
+            piste: 687
+            ski: 688
+
+sports:
+    id: 700
+    children:
+        sports:
+            badminton: 701
+            climbing: 702
+            curling: 703
+            golf: 704
+            handball: 705
+            ice_hockey: 706
+            ice_scating: 707
+            martial_arts: 708
+            motor: 709
+            soccer: 710
+            speedway: 711
+            squash: 712
+            swimming: 713
+            table_tennis: 714
+            skiing: 715
+            tennis: 716
+            scuba_diving: 765
+
+highway:
+    id: 720
+    children:
+        highway:
+            speed_camera: 721
+            motorway: 722
+            trunk: 723
+            primary: 724
+            pedestrian: 730
+            footway: 731
+            bridleway: 732
+            path: 733
+            cycleway: 740
+        cycleway:
+            lane: 741
+            opposite: 742
+            opposite_lane: 743
+            track: 744
+            opposite_track: 745
+            shared_lane: 746
+
+admin:
+    id: 780
+    children:
+        admin:
+            country: 781
+            region: 782
+            province: 783
+            district: 784
+            county: 785
+            municipality: 786
 
